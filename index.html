@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tips for transforming your home decor by enhancing furniture look and feel."
+    />
+    <title>Frontend Mentor | Home Decor Tips - Furniture Makeover</title>
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <article class="testimonial-card" aria-labelledby="article-heading">
+      <header>
+        <figure
+          class="image-section"
+          aria-label="Room decor with green dresser and dried flowers"
+        >
+          <img
+            src="./images/drawers.jpg"
+            alt="A cozy room with a green dresser and dried flowers in a vase"
+            class="testimonial-image"
+          />
+        </figure>
+      </header>
+
+      <section class="text-section">
+        <h1 id="article-heading">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p class="testimonial-body">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <footer
+          class="author"
+          aria-label="Author information and article sharing"
+        >
+          <div class="author-info" aria-label="Author details">
+            <img
+              src="./images/Ade.jpg"
+              alt="Mubarak Adeyemi's profile picture"
+              class="author-image"
+            />
+            <div class="author-details">
+              <p class="author-name">Mubarak Adeyemi</p>
+              <p class="author-date">12 Sept 2024</p>
+            </div>
+          </div>
+
+          <button
+            id="share-btn"
+            class="share-button"
+            aria-label="Share this article"
+            aria-haspopup="dialog"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="15"
+              height="13"
+              alt="Share Icon"
+              class="share-icon"
+            >
+              <path
+                fill=""
+                d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+              />
+            </svg>
+          </button>
+        </footer>
+      </section>
+
+      <!-- Social Media Popup -->
+      <div
+        id="popup-contain"
+        class="popup-container"
+        role="dialog"
+        aria-labelledby="share-popup-heading"
+        aria-hidden="true"
+      >
+        <div class="popup-arrow"></div>
+        <h2 id="share-popup-heading" class="visually-hidden">Share</h2>
+        <ul class="social-icons">
+          <li>
+            <a href="#" target="_blank" aria-label="Share on Facebook">
+              <img
+                src="./images/icon-facebook.svg"
+                alt="Facebook Icon"
+                class="social-icon"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" aria-label="Share on X (Twitter)">
+              <img src="./images/icon-X.svg" alt="X Icon" class="social-icon" />
+            </a>
+          </li>
+          <li>
+            <a href="#" target="_blank" aria-label="Share on Pinterest">
+              <img
+                src="./images/icon-pinterest.svg"
+                alt="Pinterest Icon"
+                class="social-icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </article>
+  </body>
+</html>
